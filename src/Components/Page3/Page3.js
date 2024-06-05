@@ -34,7 +34,7 @@ function Page3() {
                     </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
-                    <div style={{ width: '45%', marginTop: '150px' }} >
+                    <div style={{ width: '45%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-end' }} >
                         <button
                             style={{
 
@@ -52,6 +52,7 @@ function Page3() {
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
+
 
                             }}
                         >
